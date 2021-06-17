@@ -1,0 +1,53 @@
+@font-face{
+	font-family: 'Raleway';
+	src: url('polices/Raleway-Variable.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Raleway Italic';
+	src: url('polices/Raleway-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Raleway Bold';
+	src: url('polices/Raleway-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font-family: 'Raleway';
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+#logo{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+
+nav ul{
+	display: flex;
+	list-style-type: none;
+}
+
+nav a{
+	font-size: 1em;
+	color: black;
+	margin-right: 30px;
+}
+footer{
+	display: flex;
+	justify-content: space-between;
+}
