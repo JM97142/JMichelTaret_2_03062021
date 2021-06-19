@@ -16,38 +16,84 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
+/* --- */
 body{
 	font-family: 'Raleway';
 }
-
+body p{
+	font-size: 13px;
+}
 a{
 	text-decoration: none;
 }
-
+h2{
+	font-family: 'Raleway Bold';
+	font-size: 15px;
+}
+#bloc-page{
+	width: 1200px;
+	margin: auto;
+}
+/* en-tête */
 header{
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
 }
-
+/* logo */
 #logo{
 	display: flex;
 	flex-direction: row;
 	align-items: baseline;
 }
-
+/* navigation */
 nav ul{
 	display: flex;
 	list-style-type: none;
 }
-
 nav a{
 	font-size: 1em;
 	color: black;
+	margin-top : 30px;
 	margin-right: 30px;
 }
+nav a:hover{
+	color: #0065FC;
+	border-top: 1px solid #0065FC;
+}
+.inscription{
+	color: #0065FC;
+	font-weight: bold;
+}
+/* section recherche */
+#search{
+	display: flex;
+	align-items: center;
+}
+#search i{
+	padding: 7px 8px 7px 10px;
+	background-color: #F2F2F2;
+	border: 1px solid #F2F2F2;
+	border-radius: 10px 0px 0px 10px;
+}
+#search input{
+	padding: 7px;
+	border: 1px solid #F2F2F2;
+}
+#search button{
+	padding: 7px 10px 7px 8px;
+	background-color: #0065FC;
+	color: white;
+	border: 1px solid #0065FC;
+	border-radius: 0px 10px 10px 0px;
+}
+/* pied de page */
 footer{
 	display: flex;
-	justify-content: space-between;
+	list-style-type: none;
+	padding: 15px;
+	background-color: #F2F2F2;
+}
+footer div{
+	margin-right: 200px;
 }
