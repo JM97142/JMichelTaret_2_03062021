@@ -21,7 +21,7 @@ body{
 	font-family: 'Raleway';
 }
 body p{
-	font-size: 13px;
+	font-size: 14px;
 }
 a{
 	text-decoration: none;
@@ -57,10 +57,6 @@ nav a{
 	margin-top : 30px;
 	margin-right: 30px;
 }
-nav a:hover{
-	color: #0065FC;
-	border-top: 1px solid #0065FC;
-}
 .inscription{
 	color: #0065FC;
 	font-weight: bold;
@@ -86,6 +82,39 @@ nav a:hover{
 	color: white;
 	border: 1px solid #0065FC;
 	border-radius: 0px 10px 10px 0px;
+}
+/* filtres */
+#filtre-group{
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+}
+#filtre-group p{
+	font-family: 'Raleway Bold';
+}
+#filtre-group a{
+	color: black;
+	margin-left: 15px;
+	border: 2px solid #F2F2F2;
+	border-radius: 30px;
+	padding-right: 6px;
+	font-size: 13px;
+	font-family: 'Raleway Bold';
+	text-decoration: none;
+}
+#filtre-group i{
+	color: #0065FC;
+	background-color: #DEEBFF;
+	border: 2px solid #DEEBFF;
+	border-radius: 30px;
+	padding: 5px 8px 5px 8px;
+}
+/* information */
+#info i{
+	color: #0065FC;
+	border: 2px solid #F2F2F2;
+	border-radius: 30px;
+	padding: 3px 8px 3px 8px;
 }
 /* pied de page */
 footer{
