@@ -4,6 +4,7 @@
 		<meta charset="utf-8" />
 		<title>Reservia - réservation d'hébergement et d'activités</title>
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/mobile-style.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
@@ -22,8 +23,8 @@
 					</nav>
 				</div>
 			</header>
-			<div>
-				<div>
+			<div id="before-section">
+				<div id="description">
 					<h2>Trouvez votre hébergement pour des vacances de rêve</h2>
 					<p>En plein centre ville ou en plein nature</p>
 				</div>
@@ -34,7 +35,7 @@
 				</div>
 				<div id="filtre-group">
 					<p>Filtres</p>
-					<a href="#"><i class="fa fa-money" aria-hidden="true"></i> Économie</a>
+					<a href="#"><i class="fa fa-money-bill-wave"></i> Économie</a>
 					<a href="#"><i class="fa fa-child"></i> Familial</a>
 					<a href="#"><i class="fa fa-heart"></i> Romantque</a>
 					<a href="#"><i class="fa fa-dog"></i> Animaux autorisés</a>
@@ -45,23 +46,73 @@
 			</div>
 			<section id="first-section">
 				<div id="hebergements">
-					<h2>Hébergements à Marseille</h2>
+					<h2 class="title_hebergements">Hébergements à Marseille</h2>
 						<div id="min-hebergements">
 							<article>
+								<img src="images/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
+								<h2>Auberge la Cannebière</h2>
+								<p>Nuit à partir de 25€</p>
+							</article>
+							<article>
+								<img src="images/hebergements/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
+								<h2>Hôtel du port</h2>
+								<p>Nuit à partir de 52€</p>
+							</article>
+							<article>
+								<img src="images/hebergements/reisetopia-B8WIgxA_PFU-unsplash.jpg">
+								<h2>Hôtel Les mouettes</h2>
+								<p>Nuit à partir de 76€</p>
+							</article>
+							<article>
+								<img src="images/hebergements/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
+								<h2>Hôtel de la mer</h2>
+								<p>Nuit à partir de 46€</p>
+							</article>
+							<article>
+								<img src="images/hebergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
+								<h2>Auberge Le Panier</h2>
+								<p>Nuit à partir de 23€</p>
+							</article>
+							<article>
+								<img src="images/hebergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
+								<h2>Hôtel chez Amina</h2>
+								<p>Nuit à partir de 96€</p>
 							</article>
 						</div>
 					<a href="#">Afficher plus</a>
 				</div>
 				<aside>
 					<h2>Les plus populaires</h2>
+						<div id="min-populaires">
+							<article>
+									<img src="images/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
+									<div>
+										<h2>Hôtel chez Amina</h2>
+										<p>Nuit à partir de 96€</p>
+									</div>
+							</article>
+							<article>
+									<img src="images/hebergements/aw-creative-VGs8z60yT2c-unsplash.jpg">
+									<div>
+										<h2>Hôtel chez Amina</h2>
+										<p>Nuit à partir de 96€</p>
+									</div>
+							</article>
+							<article>
+									<img src="images/hebergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
+									<div>
+										<h2>Hôtel chez Amina</h2>
+										<p>Nuit à partir de 96€</p>
+									</div>
+							</article>
+						</div>
 				</aside>
 			</section>
-			<section>
-				<div>
-					<h2 id="activites">Activités à Marseille</h2>
-				</div>
+			<section id="section-two">
+				<h2 class="title_activites">Activités à Marseille</h2>
 			</section>
 		</body>
+	</div>
 		<footer>
 			<div>
 				<h2>À propos</h2>
@@ -80,5 +131,4 @@
 				<p><a href="#">Nous contacter</a></p>
 			</div>
 		</footer>
-	</div>
 </html>
