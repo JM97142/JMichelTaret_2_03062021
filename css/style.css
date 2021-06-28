@@ -63,10 +63,6 @@ nav a{
 	margin-top : 30px;
 	margin-right: 30px;
 }
-nav a:hover{
-	color: #0065FC;
-	border-top: 1px solid #0065FC;
-}
 .inscription{
 	color: #0065FC;
 	font-weight: bold;
@@ -168,8 +164,8 @@ nav a:hover{
 	margin-bottom: 30px;
 }
 #min-hebergements img{
-	height: 100px;
-	width: 220px;
+	height: 110px;
+	width: 210px;
 	object-fit: cover;
 	position: 50% 50%;
 	border-radius: 15px 15px 0px 0px;
@@ -202,6 +198,51 @@ aside{
 }
 #min-populaires div{
 	margin-left: 15px;
+}
+/* section activités */
+.title_activites{
+	margin-left: 25px;
+}
+#activites{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 50px;
+}
+#activites h2{
+	margin-left: 10px;
+}
+.activites_solo{
+	height: 375px;
+	box-shadow: 2px 2px 4px 2px #F2F2F2;
+	border-radius: 15px;
+}
+.activites_solo img{
+	height: 325px;
+	width: 250px;
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
+}
+.activites_duo{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.normal_img img{
+	height: 150px;
+	width: 250px;
+}
+.child_img img{
+	height: 100px;
+	width: 250px;
+}
+.activites_duo div{
+	box-shadow: 2px 2px 4px 2px #F2F2F2;
+	border-radius: 15px;
+	padding-bottom: 2px;
+}
+.activites_duo img{
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
 }
 /* pied de page */
 footer{
