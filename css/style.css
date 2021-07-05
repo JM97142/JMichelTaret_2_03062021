@@ -100,6 +100,9 @@ nav a:hover{
 	border: 1px solid #0065FC;
 	border-radius: 0px 10px 10px 0px;
 }
+#search p{
+	display: none;
+}
 /* filtres */
 #filtre-group{
 	margin-top: 15px;
@@ -109,7 +112,11 @@ nav a:hover{
 #filtre-group p{
 	font-family: 'Raleway Bold';
 }
-#filtre-group a{
+#filtre-group ul{
+	display: flex;
+}
+#filtre-group li{
+	list-style-type: none;
 	color: black;
 	margin-left: 15px;
 	border: 2px solid #F2F2F2;
@@ -118,6 +125,10 @@ nav a:hover{
 	font-size: 0.8em;
 	font-family: 'Raleway Bold';
 	text-decoration: none;
+	transition: all 1s ease;
+}
+#filtre-group li:hover{
+	transform:scale(1.15);
 }
 #filtre-group i{
 	color: #0065FC;
@@ -289,7 +300,7 @@ footer{
 	width: 1250px;
 	margin: auto;
 	display: flex;
-	list-style-type: none;
+	text-decoration: none;
 	padding: 15px;
 	background-color: #F2F2F2;
 }
@@ -313,14 +324,54 @@ footer div{
 		flex-direction: column;
 		align-items: flex-start;
 	}
+	nav ul{
+		display:wrap;
+		flex-wrap: wrap-reverse;
+		margin: auto;
+	}
 	nav a{
+		font-size: 2.7em;
+	}
+	#description p{
+		font-size: 0.7em;
+	}
+	#search{
+		font-size: 3em;
+	}
+	#search button{
+		display: none;
+	}
+	#filtre-group{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	#filtre-group p{
 		font-size: 2em;
+	}
+	#filtre-group ul{
+		flex-wrap: wrap;
+	}
+	#filtre-group li{
+		margin-bottom: 30px;
+		border-radius: 40px;
+		font-size: 2.8em;
+	}
+	#filtre-group i{
+		padding: 20px;
+		border-radius: 40px;
+		margin: auto;
+	}
+	#info i{
+		padding: 10px 18px 10px 18px;
 	}
 	#first-section{
 		flex-direction: column-reverse;
 	}
 	#hebergements{
 		background-color: white;
+	}
+	#hebergements a{
+		font-size: 2.5em;
 	}
 	#min-hebergements article{
 		height: auto;
@@ -343,6 +394,7 @@ footer div{
 		margin-left: 10px;
 	}
 	aside{
+		width: auto;
 		margin: auto;
 		padding: 40px;
 		border-radius: 0px;
@@ -352,9 +404,9 @@ footer div{
 	}
 	#min-populaires article{
 		margin: auto;
+		width: 850px;
 		margin-bottom: 30px;
 		padding: 10px;
-		width: 850px;
 		border-radius: 40px;
 	}
 	#min-populaires img{
@@ -368,11 +420,32 @@ footer div{
 	#min-populaires p{
 		font-size: 2.5em;
 	}
+	#activites{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	#activites h2{
+		margin-left: 40px;
+	}
+	.activites_solo, .activites_duo div{
+		height: auto;
+		width: 850px;
+		margin-bottom: 50px;
+		border-radius: 40px;
+		line-height: 1em;
+		box-shadow: 10px 10px 15px 10px #F2F2F2;
+	}
+	
+	.activites_solo img, .activites_duo img{
+		height: 350px;
+		width: 850px;
+		border-radius: 40px 40px 0px 0px;
+	}
 	footer{
 		width: auto;
 		flex-direction: column;
-	}
-	footer div{
-		margin: auto;
+		align-items: flex-start;
+		font-size: 1.2em;
 	}
 }
