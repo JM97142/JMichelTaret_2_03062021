@@ -362,7 +362,8 @@ footer h2, footer p{
 	}
 	nav a{
 		font-size: 3em;
-		margin: 15px 70px 30px 70px;
+		margin-left: 80px;
+		margin-right: 0px;
 	}
 	nav a:hover{
 		color: #0065FC;
@@ -430,7 +431,6 @@ footer h2, footer p{
 	}
 	#hebergements{
 		background-color: white;
-		margin-left: 50px;
 	}
 	.title_hebergements{
 		font-size: 3.5em;
@@ -459,7 +459,7 @@ footer h2, footer p{
 		margin-left: 10px;
 	}
 	aside{
-		margin-right: -80px;
+		margin: auto;
 		padding: 40px;
 		border-radius: 0px;
 	}
