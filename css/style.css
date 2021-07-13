@@ -76,6 +76,9 @@ nav a:hover{
 	color: #0065FC;
 	font-weight: bold;
 }
+.inscription:hover{
+	border: 0px;
+}
 /* --- */
 #before-section{
 	margin-left: 25px;
@@ -142,7 +145,7 @@ nav a:hover{
 	color: #0065FC;
 	background-color: #DEEBFF;
 	border: 2px solid #DEEBFF;
-	border-radius: 30px;
+	border-radius: 50%;
 	padding: 9px;
 	margin-right: 5px;
 }
@@ -151,7 +154,7 @@ nav a:hover{
 	color: #0065FC;
 	border: 2px solid #F2F2F2;
 	border-radius: 30px;
-	padding: 5px 9px 5px 9px;
+	padding: 5px 8px 5px 8px;
 }
 /* section hébergements */
 #first-section{
@@ -355,12 +358,11 @@ footer div{
 	}
 	nav a{
 		font-size: 3em;
-		margin-left: 80px;
+		margin-left: 100px;
 		padding-bottom: 30px;
 	}
 	nav a:hover{
 		border-top: 0px;
-		border-bottom: 5px solid #0065FC;
 	}
 	.inscription{
 		display: none;
@@ -394,7 +396,7 @@ footer div{
 		align-items: flex-start;
 	}
 	#filtre-group p{
-		font-size: 2em;
+		font-size: 2.5em;
 	}
 	#filtre-group ul{
 		flex-wrap: wrap;
@@ -410,14 +412,24 @@ footer div{
 		border-radius: 40px;
 		margin: auto;
 	}
+	#info{
+		margin: 50px 0px 50px 0px;
+	}
 	#info i{
-		padding: 10px 18px 10px 18px;
+		padding: 15px 20px 15px 20px;
+	}
+	#info p{
+		margin-left: 15px;
 	}
 	#first-section{
 		flex-direction: column-reverse;
 	}
 	#hebergements{
 		background-color: white;
+		margin-left: 50px;
+	}
+	.title_hebergements{
+		font-size: 3.5em;
 	}
 	#hebergements a{
 		font-size: 2.5em;
@@ -443,8 +455,7 @@ footer div{
 		margin-left: 10px;
 	}
 	aside{
-		width: auto;
-		margin: auto;
+		margin-right: -80px;
 		padding: 40px;
 		border-radius: 0px;
 	}
@@ -479,6 +490,10 @@ footer div{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+	.title_activites{
+		margin-left: 60px;
+		margin-bottom: 50px;
 	}
 	#activites h2{
 		margin-left: 40px;
@@ -533,6 +548,9 @@ footer div{
 		height: 150px;
 		width: 250px;
 		border-radius: 15px 15px 0px 0px;
+	}
+	.stars{
+		padding-bottom: 10px;
 	}
 	#activites{
 		flex-wrap: wrap;
