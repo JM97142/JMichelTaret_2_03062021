@@ -53,7 +53,7 @@ header{
 	width: 90px;
 }
 #logo a{
-	display: none;
+	visibility: hidden;
 }
 /* navigation */
 nav ul{
@@ -347,7 +347,7 @@ footer h2, footer p{
 	#logo a{
 		margin-left: 500px;
 		font-size: 2.8em;
-		display: block;
+		visibility: visible;
 		color: #0065FC;
 		font-weight: bold;
 	}
@@ -356,14 +356,13 @@ footer h2, footer p{
 		align-items: flex-start;
 	}
 	nav ul{
-		padding-right: 220px;
+		padding-right: 200px;
 		padding-bottom: 25px;
 		border-bottom: 5px solid #F2F2F2;
 	}
 	nav a{
+		margin-left: 100px;
 		font-size: 3em;
-		margin-left: 80px;
-		margin-right: 0px;
 	}
 	nav a:hover{
 		color: #0065FC;
@@ -433,12 +432,15 @@ footer h2, footer p{
 		background-color: white;
 	}
 	.title_hebergements{
+		margin-left: 50px;
 		font-size: 3.5em;
 	}
 	#hebergements a{
+		margin-left: 50px;
 		font-size: 2.5em;
 	}
 	#min-hebergements article{
+		margin-left: 100px;
 		height: auto;
 		width: auto;
 		padding: 10px;
@@ -459,6 +461,7 @@ footer h2, footer p{
 		margin-left: 10px;
 	}
 	aside{
+		width: 100%;
 		margin: auto;
 		padding: 40px;
 		border-radius: 0px;
@@ -491,12 +494,14 @@ footer h2, footer p{
 		font-size: 2.5em;
 	}
 	#activites{
+		margin-left: 50px;
+		width: 100%;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
 	.title_activites{
-		margin-left: 60px;
+		margin-left: 100px;
 		margin-bottom: 50px;
 	}
 	#activites h2{
@@ -517,7 +522,8 @@ footer h2, footer p{
 		border-radius: 40px 40px 0px 0px;
 	}
 	footer{
-		width: auto;
+		width: 100%;
+		padding-right: 50px;
 		flex-direction: column;
 		align-items: flex-start;
 		font-size: 1.3em;
