@@ -536,7 +536,7 @@ footer h2, footer p{
 	}
 }
 /* tablette */
-@media screen and (min-width: 425px) and (max-width: 768px){
+@media screen and (min-width: 426px) and (max-width: 768px){
 	#bloc-page{
 		width: auto;
 	}
