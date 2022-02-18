@@ -328,7 +328,7 @@ footer h2, footer p{
 	text-decoration: none;
 }
 /* mobile */
-@media screen and (max-device-width: 425px){
+@media screen and (max-device-width: 426px){
 	h2{
 		font-size: 4em;
 	}
