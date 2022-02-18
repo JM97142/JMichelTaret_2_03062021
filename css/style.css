@@ -328,12 +328,9 @@ footer h2, footer p{
 	text-decoration: none;
 }
 /* mobile */
-@media screen and (max-device-width: 480px){
+@media screen and (max-device-width: 425px){
 	h2{
-		font-size: 2.5em;
-	}
-	#bloc-page{
-		width: auto;
+		font-size: 4em;
 	}
 	#logo{
 		display: flex;
@@ -341,8 +338,8 @@ footer h2, footer p{
 		margin-bottom: 15px;
 	}
 	#logo img{
-		height: 100px;
-		width: auto;
+		height: 100%;
+		width: 100%;
 	}
 	#logo a{
 		margin-left: 500px;
@@ -356,7 +353,7 @@ footer h2, footer p{
 		align-items: flex-start;
 	}
 	nav ul{
-		padding-right: 200px;
+		padding-right: 300px;
 		padding-bottom: 25px;
 		border-bottom: 5px solid #F2F2F2;
 	}
@@ -372,7 +369,7 @@ footer h2, footer p{
 		display: none;
 	}
 	#description p{
-		font-size: 0.7em;
+		font-size: 3.5em;
 	}
 	#search{
 		margin-top: 50px;
@@ -409,7 +406,7 @@ footer h2, footer p{
 	#filtre-group li{
 		margin-bottom: 30px;
 		border-radius: 40px;
-		font-size: 2.8em;
+		font-size: 3em;
 	}
 	#filtre-group i{
 		padding: 20px;
@@ -418,6 +415,7 @@ footer h2, footer p{
 	}
 	#info{
 		margin: 50px 0px 50px 0px;
+		font-size: 3.5em;
 	}
 	#info i{
 		padding: 15px 20px 15px 20px;
@@ -440,41 +438,40 @@ footer h2, footer p{
 		font-size: 2.5em;
 	}
 	#min-hebergements article{
-		margin-left: 80px;
-		height: auto;
-		width: auto;
+		width: 100%;
 		padding: 10px;
 		border-radius: 40px;
 		line-height: 1em;
 		box-shadow: 10px 10px 15px 10px #F2F2F2;
 	}
 	#min-hebergements img{
-		height: 350px;
-		width: 850px;
+		height: 400px;
+		width: 100%;
 		border-radius: 40px 40px 0px 0px;
 	}
 	#min-hebergements h2{
 		margin-left: 10px;
-		font-size: 1.5em;
+		font-size: 3.5em;
 	}
 	#min-hebergements p{
 		margin-left: 10px;
+		font-size: 3em;
 	}
 	#min-hebergements i{
 		margin-bottom: 10px;
 	}
+	#min-hebergements div{
+		font-size: 3em;
+	}
 	aside{
 		width: 100%;
-		margin: auto;
-		padding: 40px;
+		padding: 50px;
 		border-radius: 0px;
 	}
 	#title-populaires h2, #title-populaires i{
-		font-size: 3em;
+		font-size: 3.5em;
 	}
 	#min-populaires article{
-		margin: auto;
-		width: 850px;
 		margin-bottom: 30px;
 		padding: 10px;
 		border-radius: 40px;
@@ -485,10 +482,10 @@ footer h2, footer p{
 		border-radius: 40px 0px 0px 40px;
 	}
 	#min-populaires h2{
-		font-size: 2.8em;
+		font-size: 3.8em;
 	}
 	#min-populaires p{
-		font-size: 2.5em;
+		font-size: 3em;
 	}
 	#min-populaires i{
 		margin-top: 100px;
@@ -504,55 +501,71 @@ footer h2, footer p{
 		align-items: center;
 	}
 	.title_activites{
+		margin-top: 170px;
 		margin-left: 100px;
 		margin-bottom: 50px;
+		font-size: 3.5em;
 	}
 	#activites h2{
 		margin-left: 40px;
+		font-size: 3.5em;
 	}
 	.activites_solo, .activites_duo div{
 		height: auto;
-		width: 850px;
+		width: 100%;
 		margin-bottom: 50px;
 		border-radius: 40px;
 		line-height: 1em;
 		box-shadow: 10px 10px 15px 10px #F2F2F2;
 	}
-	
+	.activites_duo{
+		width: 100%;
+	}
 	.activites_solo img, .activites_duo img{
-		height: 350px;
-		width: 850px;
+		height: 400px;
+		width: 100%;
 		border-radius: 40px 40px 0px 0px;
 	}
 	footer{
-		width: 100%;
 		padding-right: 50px;
 		flex-direction: column;
 		align-items: flex-start;
-		font-size: 1.3em;
+	}
+	footer p{
+		font-size: 3em;
 	}
 }
 /* tablette */
-@media screen and (min-device-width: 480px) and (max-width: 991px){
+@media screen and (min-width: 425px) and (max-width: 768px){
 	#bloc-page{
 		width: auto;
 	}
 	#logo img{
-		height: 100px;
-		width: auto;
+		height: 50%;
+		width: 50%;
 	}
-	#logo img{
-		height: 70px;
-		width: auto;
+	#first-section{
+		flex-direction: column-reverse;
 	}
 	aside{
-		margin: auto;
+		width: auto;
+		margin-bottom: 20px;
+	}
+	#hebergements{
+		margin-left: 0px;
+	}
+	#min-hebergements{
+		display: block;
 	}
 	#min-hebergements img{
-		width: 250px;
+		height: 300px;
+		width: 100%;
 	}
 	#min-hebergements h2{
 		font-size: 1.2em;
+	}
+	#min-populaires article{
+		width: auto;
 	}
 	#min-populaires h2{
 		font-size: 1.2em;
@@ -560,7 +573,7 @@ footer h2, footer p{
 	#min-populaires img{
 		height: 150px;
 		width: 250px;
-		border-radius: 15px 15px 0px 0px;
+		border-radius: 15px 0px 0px 15px;
 	}
 	.stars{
 		padding-bottom: 10px;
