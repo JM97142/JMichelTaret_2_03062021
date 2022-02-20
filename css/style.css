@@ -353,12 +353,12 @@ footer h2, footer p{
 		align-items: flex-start;
 	}
 	nav ul{
-		padding-right: 300px;
+		padding-right: 310px;
 		padding-bottom: 25px;
 		border-bottom: 5px solid #F2F2F2;
 	}
 	nav a{
-		margin-left: 100px;
+		margin-left: 180px;
 		font-size: 3em;
 	}
 	nav a:hover{
@@ -428,9 +428,10 @@ footer h2, footer p{
 	}
 	#hebergements{
 		background-color: white;
+		margin: 0px 0px 0px 50px;
 	}
 	.title_hebergements{
-		margin-left: 40px;
+		margin-bottom: 50px;
 		font-size: 3.5em;
 	}
 	#hebergements a{
@@ -503,7 +504,7 @@ footer h2, footer p{
 	.title_activites{
 		margin-top: 170px;
 		margin-left: 100px;
-		margin-bottom: 50px;
+		margin-bottom: 100px;
 		font-size: 3.5em;
 	}
 	#activites h2{
